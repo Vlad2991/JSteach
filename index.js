@@ -58,6 +58,28 @@ console.log(`Variable: ${nullVarib} have type: ${typeof nullVarib}`);
 
 
 //**********************Заадача7************************** */
-let names = prompt("Имя");
-let age = parseFloat(prompt("Возраст:"));
-console.log(`Ваше имя, ${names}! Вам ${age} лет.`);
+// let names = prompt("Имя");
+// let age = parseFloat(prompt("Возраст:"));
+// console.log(`Ваше имя, ${names}! Вам ${age} лет.`);
+
+           //  ПРОДВИНУТЫЙ УРОВЕНЬ 
+
+//**********************Заадача8************************** */
+
+let r = 4;
+let f = 3;
+
+r = r + f;
+f = r - f; 
+r = r - f;
+console.log(r,f);
+ 
+
+//**********************Заадача9************************** */
+let codeWord1 = "обернись";
+let codeWord2 = "неужели";
+let codeWord3 = "огурцы";
+let codeWord4 = "липкие";
+let codeWord5 = "?!";
+let cipher = (codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1] + codeWord5[1]);
+console.log(cipher)
